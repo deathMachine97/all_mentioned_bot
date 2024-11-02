@@ -8,3 +8,4 @@ services:
       - .:/code
     environment:
       - TELEGRAM_TOKEN=$TELEGRAM_TOKEN
+    restart: always
